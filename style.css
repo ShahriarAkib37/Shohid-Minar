@@ -1,0 +1,385 @@
+.container{
+    width: 1170px;
+    margin: auto;
+
+}
+#banner{
+    width: 100%;
+    display: flex;
+    background-color: #584b47;
+    padding: 250px 100px;
+    position: relative;
+    
+}
+/* 1st pilar */
+.onePilar{
+    position: absolute;
+    display: flex;
+    left: 300px;
+}
+.onePilar .leftPilar {
+    
+    width: 15px;
+    height: 200px;
+    border-radius: 4px;
+    background-color: whitesmoke;
+}
+.onePilar .RightPilar {
+    margin-left: 80px;
+    
+    left: -5px;
+    position: absolute;
+    width: 15px;
+    height: 200px;
+    border-radius: 4px;
+    background-color: whitesmoke;
+}
+.UpPilar{
+    width: 90px;
+    z-index: 2;
+    
+    border-radius: 3px;
+    position: absolute;
+height: 15px;
+background-color: whitesmoke;
+}
+/* 1st pilar End */
+/* 2st pilar  */
+.twopilar{
+    margin-left: 125px;
+    position: absolute;
+    left: 325px;
+    top: 0px;
+}
+.twopilar .leftPilar {
+   
+    width: 15px;
+    height: 250px;
+    border-radius: 4px;
+    position: absolute;
+    top: 200px;
+    background-color: whitesmoke;
+}
+
+
+.twopilar .RightPilar {
+    margin-left: 80px;
+    left: 0px;
+    bottom: 100px;
+    position: absolute;
+    width: 15px;
+    height: 250px;
+   top: 200px;
+    border-radius: 4px;
+    background-color: whitesmoke;
+    
+}
+
+.twopilar .UpPilar {
+    width: 90px;
+    z-index: 2;
+    top: 200px;
+    border-radius: 3px;
+    position: absolute;
+height: 15px;
+background-color: whitesmoke;
+
+}
+/* 2st pilar End */
+/* 3rd pilar  */
+
+.threepilar{
+    margin-left: 144px;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+}
+
+
+.threepilar .leftPilar {
+    position: absolute;
+    width: 15px;
+    top: 150px;
+    height: 300px;
+    left: 450px;
+    z-index: 1;
+    border-radius: 4px;
+    background-color: whitesmoke;
+    
+}
+.threepilar .RightPilar {
+    margin-left: 80px;
+    left: 500px;
+    top: 150px;
+    position: absolute;
+    width: 15px;
+    height: 300px;
+  
+    border-radius: 4px;
+    background-color: whitesmoke;
+   
+}
+.threepilar .RightPilarThree {
+    margin-left: 80px;
+    left: 436px;
+    top: 150px;
+    position: absolute;
+    width: 15px;
+    height: 300px;
+  
+    border-radius: 4px;
+    background-color: whitesmoke;
+    
+}
+.threepilar .UpPilar {
+    width: 139px;
+    z-index: 2;
+    top: 150px;
+    border-radius: 3px;
+    position: absolute;
+    height: 9px;
+    left: 450px;
+    background-color: whitesmoke;
+   
+}
+
+.threepilar .UpLeft{
+    height: 21px;
+    width: 112px;
+    transform: rotateX(-22deg) rotateY(49deg) rotateZ(75deg);
+    position: absolute;
+    border-radius: 3px;
+    z-index: 1;
+    top: 101px;
+    left: 393px;
+    background-color: whitesmoke;
+    
+
+
+}
+.threepilar .upTop{
+    height: 15px;
+    width: 184px;
+    position: absolute;
+    border-radius: 0px;
+    top: 57px;
+    left: 433px;
+    z-index: 1;
+    background-color: whitesmoke;
+  
+
+}
+
+.threepilar .UpRight{
+    height: 21px;
+    width: 112px;
+    transform: rotateX(-22deg) rotateY(-146deg) rotateZ(75deg);
+    position: absolute;
+    border-radius: 3px;
+    top: 101px;
+    left: 543px;
+    background-color: whitesmoke;
+   
+
+}
+.threepilar .upTopMidile{
+    height: 21px;
+    width: 112px;
+    transform: rotateX(-34deg) rotateY(-145deg) rotateZ(87deg);
+    position: absolute;
+    border-radius: 3px;
+    z-index: 1;
+    top: 101px;
+    left: 470px;
+    background-color: whitesmoke;
+    
+}
+.threepilar .TheSun{
+    height: 200px;
+    width: 200px;
+    z-index: 0;
+    position: absolute;
+    border-radius: 50%;
+    top: 163px;
+    left: 422px;
+    background-color: red;
+    animation: sunColor 9s ease-in-out  infinite ;
+    
+}
+
+/* 3 pilar End */
+/* 4 pilar End */
+
+.fourPilar .leftPilar {
+
+    width: 15px;
+    height: 250px;
+    border-radius: 4px;
+    position: absolute;
+    top: 200px;
+    background-color: whitesmoke;
+    
+    left: 785px;
+}
+
+.fourPilar{
+    margin-left: 125px;
+}
+.fourPilar .UpPilar {
+    width: 90px;
+    z-index: 2;
+    top: 200px;
+    border-radius: 3px;
+    position: absolute;
+height: 15px;
+background-color: whitesmoke;
+left: 785px;
+}
+
+.fourPilar .RightPilar {
+    margin-left: 80px;
+    left: 780px;
+    bottom: 100px;
+    position: absolute;
+    width: 15px;
+    height: 250px;
+   top: 200px;
+    border-radius: 4px;
+    background-color: whitesmoke;
+}
+/* 4 pilar End */
+/* 5 pilar  */
+
+.fivePilar{
+    margin-left: 125px;
+    position: absolute;
+    left: 325px;
+    top: 0px;
+}
+.fivePilar .leftPilar {
+
+    width: 15px;
+    height: 200px;
+    border-radius: 4px;
+    position: absolute;
+    top: 248px;
+    background-color: whitesmoke;
+    left: 475px;
+}
+.fivePilar .RightPilar {
+    margin-left: 80px;
+    left: 470px;
+    bottom: 100px;
+    position: absolute;
+    width: 15px;
+    height: 200px;
+    top: 248px;
+    border-radius: 4px;
+    background-color: whitesmoke;
+}
+.fivePilar .UpPilar{
+    width: 90px;
+    z-index: 2;
+    border-radius: 3px;
+    position: absolute;
+height: 15px;
+background-color: whitesmoke;
+top: 248px;
+left: 475px;
+}
+/* 5 pilar End */
+
+/* wall */
+
+ .wallOne{
+    width: 760px;
+    height: 20px;
+    background-color: #602e2b;
+    position: absolute;
+    border-radius: 3px ;
+    border: 2px solid black;
+    left: 275px;
+    bottom: 40px;
+    z-index: 42;
+}
+ .wallTwo{
+    width: 820px;
+    height: 20px;
+    background-color: #602e2b;
+    position: absolute;
+    border-radius: 2px ;
+    border: 2px solid black;
+    left: 246px;
+    bottom: 18px;
+    z-index: 30;
+}
+
+.wallThree{
+    width: 900px;
+    height: 20px;
+    background-color: #602e2b;
+    position: absolute;
+    border-radius: 3px ;
+    border: 2px solid black;
+    left: 206px;
+    bottom: -5px;
+    z-index: 42;
+}
+
+@keyframes sunColor {
+
+    0%{
+        background-color: rgb(158, 5, 5);
+        box-shadow: rgba(255, 234, 2, 0.2) 0px 7px 29px 0px;
+    }
+    10%{
+        background-color: rgb(231, 32, 32);
+        box-shadow: rgba(250, 221, 33, 0.56) 0px 22px 70px 4px;
+    }
+    20%{
+        background-color: rgb(201, 17, 17);
+        box-shadow: rgb(250, 217, 4) 0px 22px 70px 4px;
+    }
+    30%{
+        background-color: rgb(179, 24, 24);
+        box-shadow: rgba(199, 163, 18, 0.578) 0px 7px 29px 0px;
+    }
+    40%{
+        background-color: rgb(234, 33, 33);
+        box-shadow: rgba(246, 214, 4, 0.56) 0px 22px 70px 4px;
+    }
+    50%{
+        background-color: rgb(230, 67, 67);
+        box-shadow: rgba(246, 214, 4, 0.56) 0px 22px 70px 4px;
+    }
+    60%{
+        background-color: rgb(232, 21, 21);
+        box-shadow: rgba(246, 214, 4, 0.56) 0px 22px 70px 4px;
+    }
+    80%{
+        background-color: rgb(255, 0, 0);
+        box-shadow: rgba(236, 197, 5, 0.56) 0px 22px 70px 4px;
+    }
+    90%{
+        background-color: rgb(225, 8, 8);
+        box-shadow: rgba(247, 176, 23, 0.56) 0px 22px 70px 4px;
+    }
+    100%{
+        background-color: rgb(255, 0, 0);
+        box-shadow: rgba(247, 166, 6, 0.56) 0px 22px 70px 4px;
+    }
+    
+}
+
+/* wall end */
+#name{
+    margin: 50px 510px;
+    text-align: center;
+    padding-left: 123px ;
+}
+#name h1{
+    color: green;
+    /* background-color: red; */
+    /* animation: sunColor 9s infinite ; */
+
+}
