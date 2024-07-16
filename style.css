@@ -203,7 +203,7 @@ background-color: whitesmoke;
     top: 163px;
     left: 422px;
     background-color: red;
-    animation: sunColor 9s ease-in-out  infinite ;
+    animation: sunColor 7s ease-in-out  infinite alternate-reverse ;
     
 }
 
@@ -383,3 +383,21 @@ left: 475px;
     /* animation: sunColor 9s infinite ; */
 
 }
+
+
+/* copyright */
+
+/* .copyright{
+
+    background-color: aquamarine;
+} */
+
+.copyright {
+    background-color: aquamarine;
+    padding: 20px 20px ;
+    margin: 40px  0 0 500px ;
+    align-self: center;
+    display: inline-block;
+}
+
+/* copyright end */
